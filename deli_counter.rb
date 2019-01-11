@@ -13,9 +13,10 @@ def line(array)
   end 
 end 
 
+#communicate the number in line instead of a name and instead of a string, we receive a number as an argument
 def take_a_number(array,string)
-  array << string 
-  puts "Welcome, #{string}. You are number " + array.length.to_s + " in line." 
+  array << string
+  puts "Now serving number" + array.length.to_s 
 end 
 
 
